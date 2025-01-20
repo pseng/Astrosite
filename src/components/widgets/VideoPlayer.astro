@@ -1,0 +1,58 @@
+---
+// src/components/widgets/VideoPlayer.astro
+// Define the props interface directly in the frontmatter
+interface Props {
+  src: string;
+  title?: string;
+  width?: number;
+  height?: number;
+  autoplay?: boolean;
+  controls?: boolean;
+  muted?: boolean;
+  loop?: boolean;
+}
+
+const {
+  src,
+  title = "Video player",
+  width = 640,
+  height = 360,
+  autoplay = false,
+  controls = true,
+  muted = false,
+  loop = false,
+} = Astro.props;
+---
+
+<div class="video-container">
+  <video
+    class="rounded-video"
+    width={width}
+    height={height}
+    {autoplay}
+    {controls}
+    {muted}
+    {loop}
+    title={title}
+  >
+    <source src={src} type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<style>
+  .video-container {
+    width: 100%;
+    max-width: var(--width, 640px);
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .rounded-video {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+</style>

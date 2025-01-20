@@ -9,6 +9,7 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
+import Brands from '~/components/widgets/Brands.astro';
 
 import Note from '~/components/widgets/Note.astro';
 import Content from '~/components/widgets/Content.astro';
@@ -165,6 +166,10 @@ const metadata = {
   />
 
   <!-- templates to copy -->
+
+
+
+
   <Features2
     title="Our locations"
     tagline="Find us"
@@ -246,6 +251,55 @@ const metadata = {
 
   <Note />
 
+
+
+  <!-- Brands Widget ****************** -->
+
+<Brands
+title="Partnerships & Collaborations"
+subtitle="At Astrowind, we believe in the power of collaboration to drive innovation and create exceptional experiences."
+icons={[]}
+images={[
+  {
+    src: 'https://cdn.pixabay.com/photo/2015/05/26/09/37/paypal-784404_1280.png',
+    alt: 'Paypal',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2021/12/06/13/48/visa-6850402_1280.png',
+    alt: 'Visa',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2013/10/01/10/29/ebay-189064_1280.png',
+    alt: 'Ebay',
+  },
+
+  {
+    src: 'https://cdn.pixabay.com/photo/2015/04/13/17/45/icon-720944_1280.png',
+    alt: 'Youtube',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2013/02/12/09/07/microsoft-80658_1280.png',
+    alt: 'Microsoft',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png',
+    alt: 'Node JS',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2015/10/31/12/54/google-1015751_1280.png',
+    alt: 'Google',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2021/12/06/13/45/meta-6850393_1280.png',
+    alt: 'Meta',
+  },
+  {
+    src: 'https://cdn.pixabay.com/photo/2013/01/29/22/53/yahoo-76684_1280.png',
+    alt: 'Yahoo',
+  },
+]}
+/>
+
 <!-- Content Widget **************** -->
 
 <Content
@@ -270,7 +324,7 @@ items={[
   },
 ]}
 image={{
-  src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+  src: '~/assets/images/cognition-emotion-society.png',
   alt: 'Colorful Image',
 }}
 >
@@ -298,26 +352,17 @@ items={[
     description:
       'Explore various layout options to find the structure that best presents your content, enhancing user engagement and navigation.',
   },
-  {
-    title: 'Fully responsive design',
-    description:
-      "Ensure your website's optimal performance on various devices and screen sizes, providing a consistent and enjoyable user experience.",
-  },
-  {
-    title: 'Integration of media',
-    description:
-      'Seamlessly incorporate images, videos, and multimedia elements that enhance your content and engage visitors effectively.',
-  },
+  
 ]}
-image={{
-  src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2194&q=80',
-  alt: 'Blueprint Image',
+video={{
+  src: '/videos/dataAnalysis_cleaned.mp4',
 }}
 >
-<Fragment slot="content">Ensure your online presence truly represents you.</Fragment>
+<Fragment slot="content">Data analysis visualization in near realtime</Fragment>
 
 <Fragment slot="bg">
   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+
 </Fragment>
 </Content>
 
@@ -348,8 +393,9 @@ items={[
   },
 ]}
 image={{
-  src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
-  alt: 'Astronauts Image',
+  src: '~/assets/images/skyline_gooru.png',
+      alt: 'Psambati Image',
+      loading: 'eager',
 }}
 >
 <Fragment slot="content">Designed to foster growth and success.</Fragment>
@@ -358,6 +404,7 @@ image={{
   <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
 </Fragment>
 </Content>
+  
 
 
 

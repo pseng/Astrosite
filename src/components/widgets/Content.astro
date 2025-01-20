@@ -15,6 +15,9 @@ const {
   items = [],
   columns,
   image = await Astro.slots.render('image'),
+
+  video = await Astro.slots.render('video'),  // Added await and slots
+
   isReversed = false,
   isAfterContent = false,
 
@@ -88,7 +91,22 @@ const {
             </div>
           )
         }
+        {
+          !image && video && (
+            <div class="relative m-auto max-w-4xl">
+              {typeof video === 'string' ? (
+                <Fragment set:html={video} />
+              ) : (
+                <video
+                  class="mx-auto w-full rounded-lg shadow-lg"
+                  controls
+                  {...video}
+                />
+              )}
+            </div>
+          )
+        }
       </div>
     </div>
-  </div>
+  
 </WidgetWrapper>
