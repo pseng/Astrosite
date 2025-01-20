@@ -1,0 +1,25 @@
+---
+publishDate: 2024-11-12T00:00:00Z
+author: Phil Sambati
+title: Explore the role of agents and AI.
+image: ~/assets/images/AI_model TLA.jpg
+category: AI and learning
+tags:
+  - adaptive learning
+  - AI
+metadata:
+  canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
+---
+
+## ✒notes for conversation on adaptive learning 
+the idea of adaptive learning should not be through just technology, the concept of AI systems that can make decisions to either help or to pass to a teacher seems doable.  Here the AI system takes the xapi statements from different learning events, which might be things like bookmarklets, annotations, capturing web foraging activities through the browser where they can click an extension and save a url and note (maybe to something like obsidian in .md format). It could have choice of share to me, share with teacher, share with peers (sub set all or select). There can also be mobile xapi apps (not PWAs as they are not allowed on iPhone, also maybe best to use native react and not Flutter) it might be an idea to use touchpoints within the learning through some sort of mapping. These activities could be aggregated and analysed by AI and the data summarised and passed to the teacher before the class. The class then becomes about practice but in part about helping students create their own personal learning network, and also if we take the idea of KSA the attitudes would work towards getting students to better create these PLN. The teacher could guide their use of a website or CoP and help them make new connections to similar resources or get more out of the resources. The AI could also have a list of pre decided links to resources that can be triggered by certain actions in the learning exploration. This means if they go to a site on Mayers multimedia it could suggest a reputable site that has detailed information as well as a site on the linked cognitive load theory. This would be possible if there is a graph map of curriculum that has multiple levels. The graph map could be created through Neo4j and this database would act as an adaptive path. 
+If it were possible to have something that would visualize the growth of the personal learning map, similar to the way Obsidian does this that would help teachers see how the knowledge network is progressing
+
+
+## linked but separate idea
+
+If each student has their writing processed through the use of attachments, where a .docx file is converted to base64, this is then sent to an AI and decoded. The AI can the use this as a corpus to help other 
+
+
+One thing that will be key is data streams, this will be an organisational culture problem and not only a technical problem. If the project only focuses on the technical challenge and not the change management of ensuring that the educators are on board with the adaptation of their teaching and students with their learning then the project cannot easily succeed. This would need to be incorporated with the [[Approaches to digital teaching]] and the [[Approaches to digital learning]] ideas
+

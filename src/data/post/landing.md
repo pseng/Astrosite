@@ -1,14 +1,6 @@
 ---
 publishDate: 2023-07-15T00:00:00Z
 title: 'Mastering Landing Pages: Practical Guide for 2023'
-excerpt: Ever clicked on an ad and found yourself on a page that seemed to really want you to do something? Congratulations, you've landed on a Landing Page!
-image: https://images.unsplash.com/photo-1561069934-eee225952461?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
-tags:
-  - landing-pages
-  - front-end
-  - resources
-metadata:
-  canonical: https://astrowind.vercel.app/landing
 ---
 
 In the vast digital landscape, standing out is more than a desire—it's a necessity. Enter the world of Landing Pages, the unsung heroes of digital marketing. With the power of the AstroWind template, developed using Astro and Tailwind CSS, crafting these pages becomes even more intuitive. Let's dive deep into understanding, creating, and optimizing them.
@@ -53,8 +45,7 @@ Imagine browsing online for a writing course. You land on a page with a captivat
 ## Homepage vs. Landing Page
 
 While both are pivotal, they serve distinct roles:
-
-- **Homepage**: Offers a panoramic view of your brand, catering to diverse visitor intents.
+ - **Homepage**: Offers a panoramic view of your brand, catering to diverse visitor intents.
 - **Landing Page**: Zeros in on a single, specific action, be it signing up, purchasing, or downloading.
 
 Consider a popular online store. Their homepage might display various product categories, from electronics to clothing. However, if they’re promoting a summer sale, the Landing Page would focus solely on summer products. This focused approach urges visitors to take action, encouraging them to "Shop the Summer Sale Now!"
@@ -62,7 +53,7 @@ Consider a popular online store. Their homepage might display various product ca
 ## The Art of Optimization
 
 The digital realm is ever-evolving. Regular tweaks based on analytics can ensure your Landing Page remains a conversion powerhouse. Embrace A/B testing to compare different versions and refine for optimal results.
-
+ -
 Let's say you have a Landing Page for a new skincare product. Version A uses an image of the product, while Version B showcases a video review. A/B testing might reveal that Version B, with the video, has a 20% higher conversion rate. Such insights can be invaluable for future campaigns.
 
 ## Landing Pages in Action
@@ -136,7 +127,7 @@ This approach ensures that you observe the best practices in action. Also, it en
 ### [Subscription Landing Page](landing/subscription)
 
 **Purpose**: Encourages visitors to subscribe to a service, newsletter, or recurring product.
-
+ -
 **Content**: Highlights the benefits of subscribing, often offering special deals or exclusive content for subscribers.
 
 **Focus**: To secure a long-term commitment from the visitor.

@@ -1,6 +1,9 @@
 import { z, defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
 
+
+
+
 const metadataDefinition = () =>
   z
     .object({
@@ -65,6 +68,9 @@ const postCollection = defineCollection({
   }),
 });
 
+
+
 export const collections = {
   post: postCollection,
+
 };
