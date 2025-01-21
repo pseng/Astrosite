@@ -1,0 +1,61 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Header from '~/components/widgets/Header.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
+import Features from '~/components/widgets/Features.astro';
+
+import { headerData } from '~/navigation';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'SaaS Landing Page',
+};
+---
+
+<Layout metadata={metadata}>
+  <Fragment slot="header">
+    <Header
+      {...headerData}
+      
+    />
+  </Fragment>
+
+  <!-- Hero2 Widget ******************* -->
+
+  <Hero2 
+  tagline="Explore"
+  actions={[
+    { variant: 'primary', target: '_self', text: 'RMIT', href: '/myexperience_RMIT' },
+    { variant: 'primary', target: '_self', text: 'IBO', href: '/myexperience_IBO' },
+    { variant: 'primary', target: '_self', text: 'ILRI', href: '/myexperience_ILRI' },
+    { variant: 'primary', target: '_self', text: 'BC', href: '/myexperience_BC' },
+   
+  ]}
+  image={{
+    src: '~/assets/images/projects_astock.jpg', 
+    alt: 'Phils Hero Image',
+  }}
+>
+  <Fragment slot="title">
+    Projects overview
+  </Fragment>
+
+  <Fragment slot="subtitle">
+    <span class="hidden sm:inline">
+      This portfolio showcases experience creating a variety of learning resources, including audio materials for language learners and immersive 360° videos.  It also features publications on elearning and capacity building, and contributions to media projects and conferences focused on micro-learning.
+  </Fragment>
+</Hero2>
+  
+  <!-- BlogLatestPost Widget **************** -->
+
+  <BlogLatestPosts
+    id="blog"
+    title="Stay informed with AstroWind's blog"
+    information={`Explore our collection of articles, guides, and tutorials on web development, design trends, and using AstroWind effectively for your projects.`}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestPosts>
+</Layout>

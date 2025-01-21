@@ -1,0 +1,40 @@
+[debug] [2025-01-21T21:02:31.323Z] ----------------------------------------------------------------------
+[debug] [2025-01-21T21:02:31.330Z] Command:       /nix/store/if6aqyl3sl0hz14a12mndj35swb1mcwi-nodejs-20.17.0/bin/node /nix/store/p77y0rxv5lls1z0flirdcf720c9px72k-firebase-tools-13.29.0/lib/node_modules/firebase-tools/lib/bin/firebase.js deploy --only hosting
+[debug] [2025-01-21T21:02:31.331Z] CLI Version:   13.29.0
+[debug] [2025-01-21T21:02:31.331Z] Platform:      linux
+[debug] [2025-01-21T21:02:31.332Z] Node Version:  v20.17.0
+[debug] [2025-01-21T21:02:31.332Z] Time:          Tue Jan 21 2025 21:02:31 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-01-21T21:02:31.332Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-21T21:02:31.916Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-21T21:02:31.917Z] > authorizing via signed-in user (phil.sambati@gmail.com)
+[debug] [2025-01-21T21:02:31.918Z] [iam] checking project galvanized-case-214507 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-01-21T21:02:31.921Z] Checked if tokens are valid: false, expires at: 1737494175311
+[debug] [2025-01-21T21:02:31.921Z] Checked if tokens are valid: false, expires at: 1737494175311
+[debug] [2025-01-21T21:02:31.922Z] > refreshing access token with scopes: []
+[debug] [2025-01-21T21:02:31.927Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-01-21T21:02:31.928Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-01-21T21:02:32.681Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-01-21T21:02:32.694Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-01-21T21:02:32.717Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/galvanized-case-214507:testIamPermissions [none]
+[debug] [2025-01-21T21:02:32.717Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/galvanized-case-214507:testIamPermissions x-goog-quota-user=projects/galvanized-case-214507
+[debug] [2025-01-21T21:02:32.717Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/galvanized-case-214507:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-01-21T21:02:33.411Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/galvanized-case-214507:testIamPermissions 200
+[debug] [2025-01-21T21:02:33.433Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/galvanized-case-214507:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-01-21T21:02:33.441Z] Checked if tokens are valid: true, expires at: 1737496951695
+[debug] [2025-01-21T21:02:33.441Z] Checked if tokens are valid: true, expires at: 1737496951695
+[debug] [2025-01-21T21:02:33.442Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/galvanized-case-214507 [none]
+[debug] [2025-01-21T21:02:33.655Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/galvanized-case-214507 200
+[debug] [2025-01-21T21:02:33.674Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/galvanized-case-214507 {"projectId":"galvanized-case-214507","projectNumber":"21240224385","displayName":"My First Project","name":"projects/galvanized-case-214507","resources":{"hostingSite":"galvanized-case-214507"},"state":"ACTIVE","etag":"1_730e3050-8711-489b-b58e-952403aafbd5"}
+[info] 
+   Thank you for trying our experimental support for Astro on Firebase Hosting.
+   While this integration is maintained by Googlers it is not a supported Firebase product.
+   Issues filed on GitHub will be addressed on a best-effort basis by maintainers and other community members.
+   The integration is known to work with Astro version 2 - 4. You may encounter errors.
+
+   Documentation: https://firebase.google.com/docs/hosting/frameworks/frameworks-overview
+   File a bug: https://github.com/firebase/firebase-tools/issues/new?template=bug_report.md
+   Submit a feature request: https://github.com/firebase/firebase-tools/issues/new?template=feature_request.md
+
+   We'd love to learn from you. Express your interest in helping us shape the future of Firebase Hosting: https://goo.gle/41enW5X
+
