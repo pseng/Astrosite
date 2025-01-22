@@ -37,7 +37,6 @@ export const footerData = {
     {
       title: 'Website',
       links: [
-        { text: 'About', href: 'about' },
         { text: 'Articles', href: '#' },
         { text: 'CV', href: 'index' },
         { text: 'Projects', href: 'projects_overview' },
@@ -49,9 +48,9 @@ export const footerData = {
   //   { text: 'Privacy Policy', href: getPermalink('/privacy') },
   // ],
   socialLinks: [
-    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/phil-sambati-6770b1a6/' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://philsambati.com/"> Phil Sambati</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://www.linkedin.com/in/phil-sambati-6770b1a6/"> Phil Sambati</a> · All rights reserved.
   `,
 };
