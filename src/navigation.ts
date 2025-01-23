@@ -9,12 +9,12 @@ export const headerData = {
   
     {
       text: 'articles',
-      href: 'blog',
+      href: '/blog',
     },
   
     {
       text: 'Projects',
-      href: 'projects_overview',
+      href: '/projects_overview',
     },
   ],
   actions: [{ text: 'Download',href: 'PhilSambati_CV-2025-SPN.pdf', download: 'PhilSambatiCV', target: '_blank', rel: 'noopener noreferrer' }],
@@ -37,9 +37,9 @@ export const footerData = {
     {
       title: 'Website',
       links: [
-        { text: 'Articles', href: '#' },
-        { text: 'CV', href: 'index' },
-        { text: 'Projects', href: 'projects_overview' },
+        { text: 'Articles', href: '/blog' },
+        { text: 'CV', href: './PhilSambati_CV-2025-SPN.pdf', download: 'PhilSambatiCV', target: '_blank', rel: 'noopener noreferrer' },
+        { text: 'Projects', href: '/projects_overview' },
       ],
     },
   ],

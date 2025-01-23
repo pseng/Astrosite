@@ -56,9 +56,11 @@ export default defineConfig({
         removeAttributeQuotes: false,
       },
     },
-    Image: false,
+    Image: true,
+    // originally false psedit
     JavaScript: true,
-    SVG: false,
+    SVG: true,
+    // originally false psedit
     Logger: 1,
   }), astrowind({
     config: './src/config.yaml',
