@@ -51,6 +51,6 @@ export const footerData = {
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/phil-sambati-6770b1a6/' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://www.linkedin.com/in/phil-sambati-6770b1a6/"> Phil Sambati</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://www.linkedin.com/in/phil-sambati-6770b1a6/"> Phil Sambati, powered by tea ☕ and biscuits 🍪</a> · All rights reserved.
   `,
 };

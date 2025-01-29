@@ -4,9 +4,14 @@ layout: '~/layouts/MarkdownLayout.astro'
 ---
 import { YouTube, Tweet, Vimeo } from 'astro-embed';
 
+import { Image } from 'astro:assets';
+import networkImage from 'src/assets/images/networkgraph.png';
+
+
 ## Capacity Needs Assessment tools development
 
 The publication provided a comprehensive framework and set of tools designed for partners of the CGIAR Research Program on Livestock. It aimed to  assess and address capacity needs gaps within the context of ILRIs livestock research projects. The tools were used in Ethiopia, Kenya, Nicaragua, Malawi and Tanzania.
+
 
 
 You can find the full publication [here](https://www.ilri.org/knowledge/publications/capacity-needs-assessment-cna-cna-framework-and-tools-partners-cgiar)
@@ -16,6 +21,7 @@ You can find the full publication [here](https://www.ilri.org/knowledge/publicat
 The CNA tools were used to collect data on the large scale programme Africa RISING, a set of projects to address sustainable intensification of agricultural systems.  I was part of the data collection from the CNA in Ethiopia which included a graph analysis of communication relationships between project members. The aim was to identify graph elements such as bridges which often indicated that there was a single connection between 2 clusters of the project which could pose a risk if the connection broke.
 A sample of the network graph diagram
 
+<Image src={networkImage} alt="descriptive text" />
 
 ## CNA in Pakistan with the UNDP
 

@@ -1,21 +1,21 @@
 ---
-publishDate: 2023-01-02T00:00:00Z
+publishDate: 2022-01-02T00:00:00Z
 title: AI and data analysis article
 excerpt: A short article exploring the ways that AI can integrate into the data analysis process and beyond.
 tags:
-  - AI
-  - Adpative learning
-  - Data-driven learning
-  
+ - test
 ---
 
 import Logo from '~/components/Logo.astro';
 import { YouTube, Tweet, Vimeo } from 'astro-embed';
 import LearningStages from '~/components/LearningStages';
 import Steps from '~/components/widgets/Steps.astro';
+import { Image } from 'astro:assets';
+import networkImage from 'src/assets/images/networkgraph.png';
 
+<Image src={networkImage} alt="descriptive text" />
 
-
+  
 AI is revolutionizing how we understand and utilize data in education, transforming raw information from Learning Management Systems (LMS) and Learning Record Stores (LRS) into actionable insights that improve learning outcomes. Here's a breakdown of how AI is used for data analysis in learning, with a focus on educational data mining, data visualization, and learning analytics:
 <Steps
     title="A guided discovery of using AI through ADDIE"

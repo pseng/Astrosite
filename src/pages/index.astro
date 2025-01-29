@@ -28,7 +28,7 @@ const metadata = {
       actions={[
         {
           text: 'Get my CV',
-          href: 'PhilSambati_CV-2025-SPN.pdf', download: 'PhilSambatiCV', target: '_blank', rel: 'noopener noreferrer'
+          href: 'src/assets/images/PhilSambati_CV-2025-V2-SPN.pdf', download: 'PhilSambatiCV', target: '_blank', rel: 'noopener noreferrer'
         },
       ]}
       isSticky
@@ -42,13 +42,12 @@ const metadata = {
     id="hero"
     title="Phil Sambati"
     tagline="homepage and portfolio"
-    actions={[{ variant: 'primary', text: 'Get my CV', href: 'PhilSambati_CV-2025-SPN.pdf', download:'PhilSambati_CV' }]}
   >
 
 
   
     <Fragment slot="subtitle">
-      After you have explored a little I'm sure you'll find I'm passionate about creating impactful learning experiences
+      <b>I am open to work</b> and after you have explored a little I'm sure you'll find I'm passionate about creating impactful learning experiences
       that drive real results. Thanks for visiting!
     </Fragment>
   </Hero>
@@ -58,6 +57,38 @@ const metadata = {
   <Content
     id="about"
     columns={3}
+    items={[
+      {
+        icon: 'tabler:arrow-big-right-lines',
+        callToAction: {
+          text: 'Contact me:',
+        },
+      },
+      {
+        icon: 'tabler:brand-linkedin',
+        callToAction: {
+          target: '_blank',
+          text: 'Linkedin',
+          href: 'https://www.linkedin.com/in/phil-sambati-6770b1a6/',
+        },
+      },
+      {
+        icon: 'tabler:mail',
+        callToAction: {
+          target: '_blank',
+          text: 'Email',
+          href: 'mailto:contact@philsambati.com',
+        },
+      },
+      // {
+      //   icon: 'tabler:brand-pinterest',
+      //   callToAction: {
+      //     target: '_blank',
+      //     text: 'Pinterest',
+      //     href: '#',
+      //   },
+      // },
+    ]}
     image={{
       src: '~/assets/images/psambati.JPG',
       alt: 'Psambati Image',
@@ -69,7 +100,7 @@ const metadata = {
       <p>
         With years of expertise in curriculum development and digital learning innovation, I help organizations and
         individuals unlock their full potential through strategic learning solutions.<br />
-        <br />Check out my portfolio which showcases how I have used proven methodologies that transform complex
+        <br />Explore my projects which showcases how I have used AI technologies alongside proven methodologies that transform complex
         knowledge into engaging learning experiences, alongside strategic curriculum development across diverse
         industries and learning needs.<br /><br /> Here, you'll discover my forward-thinking perspectives on the evolving
         landscape of digital education and insights into creating effective learning environments.
@@ -93,7 +124,7 @@ const metadata = {
       {
         title:
           'Learning designer <br /> <span class="font-normal">Independent Consultant, Spain</span> <br /> <span class="text-sm font-normal">2024 - Present</span>',
-        description: `Developed Developed online learning material and integrated AI into workflows for instructional systems design.`,
+        description: `Developed online learning material and integrated AI into workflows for instructional systems design.`,
         icon: 'tabler:briefcase',
       },
       {
@@ -174,7 +205,7 @@ const metadata = {
         title: 'Project Management and Workflow',
         description:
           '<strong>Methodologies:</strong> SCRUM, Kanban, waterfall<br><br><strong>Collaboration and planning:</strong> Jira, Confluence, Notion, Microsoft planner,Smartsheet, Miro',
-        icon: 'tabler:stack-pop',
+        icon: 'tabler:timeline-event-text',
       },
     ]}
   />
