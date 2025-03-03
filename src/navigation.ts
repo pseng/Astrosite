@@ -17,7 +17,7 @@ export const headerData = {
       href: '/projects_overview',
     },
   ],
-  actions: [{ text: 'Download',href: 'PhilSambati_CV-2025-SPN.pdf', download: 'PhilSambatiCV', target: '_blank', rel: 'noopener noreferrer' }],
+  actions: [{ text: 'Download',href: 'src/assets/images/CV_PhilSambati-3s.pdf', download: 'PhilSambatiCV', target: '_blank', rel: 'noopener noreferrer' }],
 };
 
 export const footerData = {
@@ -38,7 +38,7 @@ export const footerData = {
       title: 'Website',
       links: [
         { text: 'Articles', href: '/blog' },
-        { text: 'CV', href: './PhilSambati_CV-2025-SPN.pdf', download: 'PhilSambatiCV', target: '_blank', rel: 'noopener noreferrer' },
+        { text: 'CV', href: 'src/assets/images/CV_PhilSambati-3s.pdf', download: 'PhilSambatiCV', target: '_blank', rel: 'noopener noreferrer' },
         { text: 'Projects', href: '/projects_overview' },
       ],
     },
